@@ -1,23 +1,15 @@
-For a given number N check if it is prime or not. A prime number is a number which is only divisible by 1 and itself.
- 
+Given an integer n check if n is prime or not.
 
-Example 1:
-```
-Input:
-N = 5
-Output:
-1
-Explanation:
-5 has 2 factors 1 and 5 only.
+A prime number is a number that is divisible by 1 and itself only.
 
+Examples:
 ```
-Example 2:
-
+Input: n = 17
+Output: True 
+Explanation: 17 is  divisible by only 1 and 17. So it's a prime number.
 ```
-Input:
-N = 25
-Output:
-0
-Explanation:
-25 has 3 factors 1, 5, 25
+```
+Input: n = 56
+Output: False
+Explanation: 56 is divisible by 2, 4, 7.....etc. So its not a prime number.
 ```
